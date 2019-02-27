@@ -1,0 +1,196 @@
+{
+  "layout": {
+    "definition": [
+      {
+        "type": "stack",
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "activeItemIndex": 0,
+        "height": 100.00000000000003,
+        "content": [
+          {
+            "type": "component",
+            "isClosable": true,
+            "componentName": "jimu grid",
+            "componentState": {
+              "id": "14490678344438823-2"
+            },
+            "reorderEnabled": true,
+            "title": "jimu grid",
+            "id": "14490678344438823-2"
+          }
+        ]
+      }
+    ]
+  },
+  "dijits": [
+    {
+      "id": "14490678344438823-1",
+      "type": "text",
+      "visible": false,
+      "config": {
+        "background": {
+          "backgroundColor": "#222222",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "middle"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 16,
+          "textColor": "#fff"
+        },
+        "text": "TITLE OF THE INFOGRAPHIC"
+      }
+    },
+    {
+      "id": "14490678344438823-2",
+      "type": "chart",
+      "visible": true,
+      "config": {
+        "mode": "count",
+        "type": "pie",
+        "categoryField": "provincia",
+        "dateConfig": null,
+        "sortOrder": {
+          "isAsc": true,
+          "isLabelAxis": true
+        },
+        "maxLabels": 100,
+        "backgroundColor": "#222222",
+        "seriesStyle": {
+          "styles": [
+            {
+              "style": {
+                "color": [
+                  "#5d9cd3",
+                  "#a5a5a5",
+                  "#4673c2",
+                  "#285f8f",
+                  "#636363",
+                  "#274577"
+                ]
+              },
+              "name": "pie~not-field",
+              "label": "pie~not-field"
+            }
+          ],
+          "type": "series",
+          "customColor": {
+            "categories": [
+              {
+                "uniqueID": "23863942009453032",
+                "text": "ALBACETE",
+                "label": "ALBACETE",
+                "color": "#47bcf5",
+                "id": "ALBACETE"
+              },
+              {
+                "uniqueID": "1813431646631798",
+                "text": "ALICANTE",
+                "label": "ALICANTE",
+                "color": "#fbe66a",
+                "id": "ALICANTE"
+              },
+              {
+                "uniqueID": "35232428148831674",
+                "text": "ALMERÍA",
+                "label": "ALMERÍA",
+                "color": "#f29157",
+                "id": "ALMERÍA"
+              },
+              {
+                "uniqueID": "870127638157957",
+                "text": "ASTURIAS",
+                "label": "ASTURIAS",
+                "color": "#c8501d",
+                "id": "ASTURIAS"
+              },
+              {
+                "uniqueID": "2807247355459739",
+                "text": "ÁLAVA",
+                "label": "ÁLAVA",
+                "color": "#2db7c6",
+                "id": "ÁLAVA"
+              }
+            ],
+            "others": [
+              {
+                "uniqueID": "2605244944221281",
+                "text": "Null",
+                "label": "Null",
+                "color": "#808080",
+                "id": "null"
+              },
+              {
+                "uniqueID": "9694615589733886",
+                "text": "Others",
+                "label": "Others",
+                "color": "#808080",
+                "id": "others"
+              }
+            ]
+          }
+        },
+        "legend": {
+          "show": true,
+          "textStyle": {
+            "color": "#fff",
+            "fontSize": 12
+          }
+        },
+        "dataLabel": {
+          "show": false,
+          "textStyle": {
+            "color": "#fff",
+            "fontSize": 12
+          }
+        },
+        "innerRadius": 45
+      }
+    },
+    {
+      "id": "14490678344438823-3",
+      "type": "text",
+      "visible": false,
+      "config": {
+        "background": {
+          "backgroundColor": "#222222",
+          "alignment": {
+            "horizontal": "center",
+            "vertical": "top"
+          },
+          "link": ""
+        },
+        "font": {
+          "font": {
+            "fontFamily": "Arial",
+            "bold": false,
+            "italic": false,
+            "underline": false
+          },
+          "fontSize": 12,
+          "textColor": "#fff"
+        },
+        "text": "Description: additional information about this infographic."
+      }
+    }
+  ],
+  "name": "donut",
+  "wid": "14490678344438823",
+  "dataSource": {
+    "dataSourceType": "DATA_SOURCE_FEATURE_LAYER_FROM_MAP",
+    "name": "Gasolineras de España",
+    "layerId": "Gasolineras_3788",
+    "useSelection": true,
+    "filterByExtent": "on"
+  }
+}
